@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/a20055/CorePatch/raw/master/tvboxqq/%E6%9C%AC%E5%9C%B0%E4%BB%93.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
